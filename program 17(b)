@@ -1,0 +1,13 @@
+print("SUM OF N NUMBERS")
+print("-----------------")
+
+start = int(input("Enter the starting number: "))
+end = int(input("Enter the ending number: "))
+
+total_sum = 0
+print("result")
+for i in range(start, end + 1):
+    print("+" + str(i))
+    total_sum += i
+
+print("Sum =", total_sum)
