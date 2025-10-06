@@ -1,0 +1,18 @@
+print("Prime Number Generation")
+print("-----------------------")
+
+sn = int(input("Enter the starting number: "))
+en = int(input("Enter the ending number: "))
+
+print("Result:")
+
+for n in range(sn, en + 1): 
+for i in range(2, n):
+if n % i == 0:
+count += 
+if n < 2:
+continue
+elif count == 0:
+print(str(n) + " is prime")
+else:
+print(str(n) + " is not prime")
